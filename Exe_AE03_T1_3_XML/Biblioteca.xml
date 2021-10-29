@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<llibreria>
+    <llibre id="1">
+        <titol>llibre1</titol>
+        <any>2026</any>
+        <editorial>nostros</editorial>
+        <pagina>327</pagina>
+        <autor>jo</autor>
+    </llibre>
+    <llibre id="2">
+        <titol>llibre2</titol>
+        <any>12446</any>
+        <editorial>sfas</editorial>
+        <pagina>12345</pagina>
+        <autor>wrqrf</autor>
+    </llibre>
+    <llibre id="3">
+        <titol>llibre3</titol>
+        <any>2026</any>
+        <editorial>nostros</editorial>
+        <pagina>327</pagina>
+        <autor>jo</autor>
+    </llibre>
+    <llibre id="4">
+        <titol>llibre4</titol>
+        <any>2021</any>
+        <editorial>Casoplon</editorial>
+        <pagina>456</pagina>
+        <autor>Vosaltres</autor>
+    </llibre>
+    <llibre id="4">
+        <titol>llibre5</titol>
+        <any>2021</any>
+        <editorial>Casoplon</editorial>
+        <pagina>456</pagina>
+        <autor>nosaltres</autor>
+    </llibre>
+</llibreria>
