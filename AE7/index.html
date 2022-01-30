@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Begudes</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="titol">Preapara el teu comptel</h1>
+    <div class="buscador">
+        <p id="titol-beguda">Beguda:</p>
+        
+            <input type="text" value="" id="strBeguda">
+            <button id="botonBusqueda" onclick="getGroupInfo()">Buscar</button>
+        
+    </div>
+
+    <div>
+        <div class="contenidor-titol">
+            <h1 id="strNom" class="titol2"></h1>
+        </div>
+        <div class="contenedor">
+            <div class="section">
+
+                <div class="ingredients">
+                    <div class="instruccions">
+                        <h2>Instrucions</h2>
+                        <p id="strInstruccions"></p>
+                    </div>
+                    <div class="ingredients2">
+
+
+                        <h2> Ingredients</h2>
+                        <ul style="list-style-type:none">
+                            <li id="strIngredients1"></li>
+                            <li id="strMedides1"></li>
+                        </ul>
+                        <ul style="list-style-type:none">
+                            <li id="strIngredients2"></li>
+                            <li id="strMedides2"></li>
+                        </ul>
+
+                        <ul style="list-style-type:none">
+                            <li id="strIngredients3"></li>
+                            <li id="strMedides3"></li>
+
+                        </ul>
+
+                        <ul style="list-style-type:none">
+                            <li id="strIngredients4"></li>
+                            <li id="strMedides4"></li>
+                        </ul>
+
+                        <ul style="list-style-type:none">
+
+                            <li id="strIngredients5"></li>
+                            <li id="strMedides5"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="imatge">
+                    <img id="strImatge"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="guardar">
+        <p><button id="botonGuardar" onclick="guardarInfo()">Guardar</button></p>
+    </div>
+
+</body>
+
+
+
+</html>
